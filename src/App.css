@@ -1,0 +1,56 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f8ff; /* Light blue background */
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  color: #ff6347; /* Tomato color for main heading */
+  text-align: center;
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #4682b4; /* Steel blue color for subheadings */
+  margin: 10px 0;
+}
+
+button {
+  background-color: #ffeb3b; /* Bright yellow for buttons */
+  border: 2px solid #ff9800; /* Orange border */
+  color: #000; /* Black text */
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 1.2em;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #ffe082; /* Lighter yellow on hover */
+  transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+button:disabled {
+  background-color: #e0e0e0; /* Gray for disabled buttons */
+  color: #999; /* Lighter text */
+  cursor: not-allowed; /* Show not-allowed cursor */
+}
+
+span {
+  font-size: 1.5em;
+  color: #6a5acd; /* Slate blue for user order */
+  margin-right: 10px;
+}
+
+.message {
+  font-size: 1.5em;
+  color: #ff4500; /* Orange-red for messages */
+  text-align: center;
+  margin-top: 20px;
+}
